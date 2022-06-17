@@ -3,9 +3,8 @@
 const city = 'Minsk',
     country = 'Belarus',
     population = 2009786;
-let boolean
-stadium = true;
-console.log(`My city is ${city} with population ${population} inhabitants. Be in ${country}. Stadium is ${stadium}.`);
+let haveStadium = true;
+console.log(`My city is ${city} with population ${population} inhabitants. Be in ${country}. Stadium is ${haveStadium}.`);
 
 // Task 1.2
 
@@ -26,8 +25,7 @@ console.log(`Distance between cities ${distance}km.`);
 const randomNumber = Math.floor(Math.random() * 100);
 if (randomNumber < 20) {
     console.log(`randomNumber = ${randomNumber} less than 20`);
-} else if
-(randomNumber > 50) {
+} else if (randomNumber > 50) {
     console.log(`randomNumber = ${randomNumber} more than 50`);
 } else {
     console.log(`randomNumber = ${randomNumber} less than 20 and more than 50`);
