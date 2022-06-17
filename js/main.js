@@ -47,3 +47,66 @@ switch (true) {
     default:
         console.log(`randomNumber = ${randomNumber} less than 20 and more than 50`);
 }
+
+// Task 2.1
+
+console.log('In a given interval, even numbers: ');
+for (let start = 10; start <= 50; start++) {
+    if (start % 2 === 0) {
+        console.log(start);
+    }
+}
+
+// Task 2.2
+
+const user = {
+    firstName: 'Ilya',
+    lastName: 'Haikin',
+    age: 39,
+    pet: true
+};
+console.log(`User: \t\t${user.firstName} ${user.lastName}
+Age: \t\t${user.age} years old
+Have pet: \t${user.pet}`);
+
+// Task 2.3
+
+const array = [
+    'я в Симбирск,',
+    'в трактире.',
+    'с утра',
+    'В ту же ночь',
+    'Я остановился',
+    'для закупки',
+    'что и было поручено Савельичу.',
+    'приехал,',
+    'где должен был',
+    'нужных вещей',
+    'отправился по лавкам',
+    'пробыть сутки',
+    'Савельич'
+]
+let result = `${array[3]} ${array[7]} ${array[0]} ${array[8]} ${array[11]} ${array[5]} ${array[9]} ${array[6]} ${array[4]} ${array[1]} ${array[12]} ${array[2]} ${array[10]}`;
+console.log(result);
+
+// Task 2.4
+
+const showFullName = (firstName, lastName) => {
+    const fullName = `${firstName} ${lastName}`;
+    console.log(fullName);
+}
+showFullName('Ilya', 'Haikin');
+
+// Task 2.5
+
+const startNumber = 21,
+    finishNumber = 67;
+let num = startNumber;
+console.log('Odd numbers in a given interval: ')
+while (num <= finishNumber) {
+    if (num % 2 !== 0) {
+        console.log(num);
+    }
+    num++;
+}
+
