@@ -97,14 +97,13 @@ showFullName('Ilya', 'Haikin');
 
 // Task 2.5
 
-const startNumber = 21,
-    finishNumber = 67;
-let num = startNumber;
+let startNumber = 21;
+const finishNumber = 67;
 console.log('Odd numbers in a given interval: ')
-while (num <= finishNumber) {
-    if (num % 2 !== 0) {
-        console.log(num);
+while (startNumber <= finishNumber) {
+    if (startNumber % 2 !== 0) {
+        console.log(startNumber);
     }
-    num++;
+    startNumber++;
 }
 
